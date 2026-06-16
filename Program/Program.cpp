@@ -2,71 +2,63 @@
 
 using namespace std;
 
-template<typename T> 
+template<typename T>
 class List
 {
 private:
 	struct Node
 	{
 		T data;
-		Node* previous;
 		Node* next;
 	};
-	int size;
+
 	Node* head;
-	Node* tail;
+	int size;
 
 public:
 	List()
 	{
-		size = 0;
 		head = nullptr;
-		tail = nullptr;
+		size = 0;
 	}
 
 	void push_front(T data)
 	{
 		Node* newNode = new Node;
 		newNode->data = data;
-		newNode->next = nullptr;
-		newNode->previous = nullptr;
-
 		if (head == nullptr)
 		{
 			head = newNode;
-			tail = newNode;
+			newNode->next = newNode;
 		}
 		else
 		{
-			head->previous = newNode; 
-			newNode->next = head; 
-
-			head = newNode; 
+			newNode->next = head->next;
+			head->next = newNode;
 		}
 		size++;
 	}
-
+	
 	void pop_front()
 	{
+		
+
 		if (head == nullptr)
 		{
 			cout << "Linked list is empty" << endl;
 		}
 		else
 		{
-			Node* deleteNode = head;
+			Node* deleteNode = head->next;
 
-			if (head == tail)
+			if (head == head->next)
 			{
 				head = nullptr;
-				tail = nullptr;
 			}
 			else
 			{
-				deleteNode->next->previous = nullptr;
-				head = head->next;
+				head->next = deleteNode->next;
 			}
-			
 			delete deleteNode;
 
 			size--;
@@ -77,60 +69,18 @@ public:
 	{
 		Node* newNode = new Node;
 		newNode->data = data;
-		newNode->next = nullptr;
-		newNode->previous = nullptr;
-
-		if (tail == nullptr)
-		{
-			head = newNode;
-			tail = newNode;
-		}
-		else
-		{
-			tail->next = newNode;
-			newNode->previous = tail;
-			tail = newNode;
-		}
-		size++;
-	}
-
-	void pop_back()
-	{
 		if (head == nullptr)
 		{
-			cout << "Linked list is empty" << endl;
+			head = newNode;
+			newNode->next = newNode;
 		}
 		else
 		{
-			Node* deleteNode = tail;
-
-			if (head == tail)
-			{
-				head = nullptr;
-				tail = nullptr;
-			}
-			else
-			{
-				tail->previous->next = nullptr;
-				tail = tail->previous;
-			}
-			delete deleteNode;
-			size--;
-
+			newNode->next = head->next;
+			head->next = newNode;
+			head = newNode;
 		}
-	}
-
-	const bool& empty()
-	{
-		return head == nullptr;
-	}
-
-	~List()
-	{
-		while (head != nullptr)
-		{
-			pop_front();
-		}
+		size++;
 	}
 
 };
@@ -139,14 +89,11 @@ int main()
 {
 	List<int>list;
 	list.push_front(10);
-	list.push_front(20);
-	list.push_back(30);
-	list.push_back(40);
+	list.push_back(20);
 	list.pop_front();
 	list.pop_front();
-	list.pop_front();
-	list.pop_back();
-	list.pop_back();
+	
+	
 	return 0;
 }
 
