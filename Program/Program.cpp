@@ -3,97 +3,41 @@
 using namespace std;
 
 template<typename T>
-class List
+class Vector
 {
 private:
-	struct Node
-	{
-		T data;
-		Node* next;
-	};
-
-	Node* head;
-	int size;
-
+	int capacity;
+	int m_size;
+	T* container;
 public:
-	List()
+	Vector()
 	{
-		head = nullptr;
-		size = 0;
+		capacity = 0;
+		m_size = 0;
+		container = nullptr;
 	}
 
-	void push_front(T data)
+	const int& size()
 	{
-		Node* newNode = new Node;
-		newNode->data = data;
-		if (head == nullptr)
-		{
-			head = newNode;
-			newNode->next = newNode;
-		}
-		else
-		{
-			newNode->next = head->next;
-			head->next = newNode;
-		}
-		size++;
-	}
-	
-	void pop_front()
-	{
-		
-
-		if (head == nullptr)
-		{
-			cout << "Linked list is empty" << endl;
-		}
-		else
-		{
-			Node* deleteNode = head->next;
-
-			if (head == head->next)
-			{
-				head = nullptr;
-			}
-			else
-			{
-				head->next = deleteNode->next;
-			}
-			delete deleteNode;
-
-			size--;
-		}
+		return m_size;
 	}
 
-	void push_back(T data)
+	const T& operator [] (const int &index)
 	{
-		Node* newNode = new Node;
-		newNode->data = data;
-		if (head == nullptr)
-		{
-			head = newNode;
-			newNode->next = newNode;
-		}
-		else
-		{
-			newNode->next = head->next;
-			head->next = newNode;
-			head = newNode;
-		}
-		size++;
+		return container[index];
+	}
+
+	~Vector()
+	{
+		delete[] container;
 	}
 
 };
 
 int main()
 {
-	List<int>list;
-	list.push_front(10);
-	list.push_back(20);
-	list.pop_front();
-	list.pop_front();
-	
-	
+	Vector<int>vector;
+
 	return 0;
 }
 
