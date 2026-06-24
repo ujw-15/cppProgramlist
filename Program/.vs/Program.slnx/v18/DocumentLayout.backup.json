@@ -7,10 +7,16 @@
       "RelativeMoniker": "D:0:0:{F748D256-4E19-41D5-B963-4B59305A4B95}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2AD7EFE-A11F-4CB7-ACC5-14D97E7B39C3}|..\\Class1th (Single Linked List)\\Class1th (Single Linked List).vcxproj|C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class1th (Single Linked List)\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{514577A3-3AF8-4E71-A786-83E57BD34EFA}|..\\Class6th (Linear Queue)\\Class6th (Linear Queue).vcxproj|C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class6th (Linear Queue)\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A76C92-8A25-431F-BC72-235B64B0A675}|..\\Class5th (Stack)\\Class5th (Stack).vcxproj|C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class5th (Stack)\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3124A2E-434D-4116-BF57-1F2D9F27D9A5}|..\\Class4th (Vector)\\Class4th (Vector).vcxproj|C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class4th (Vector)\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2AD7EFE-A11F-4CB7-ACC5-14D97E7B39C3}|..\\Class1th (Single Linked List)\\Class1th (Single Linked List).vcxproj|C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class1th (Single Linked List)\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B220F4E3-B19B-4EA0-8035-6FAAB0FF652D}|..\\Class3th (Circle Linked List)\\Class3th (Circle Linked List).vcxproj|C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class3th (Circle Linked List)\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -26,15 +32,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-11T09:03:10.102Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "source.cpp",
+              "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class6th (Linear Queue)\\source.cpp",
+              "RelativeDocumentMoniker": "..\\Class6th (Linear Queue)\\source.cpp",
+              "ToolTip": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class6th (Linear Queue)\\source.cpp",
+              "RelativeToolTip": "..\\Class6th (Linear Queue)\\source.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwD0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-24T06:26:43.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "source.cpp",
+              "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class5th (Stack)\\source.cpp",
+              "RelativeDocumentMoniker": "..\\Class5th (Stack)\\source.cpp",
+              "ToolTip": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class5th (Stack)\\source.cpp",
+              "RelativeToolTip": "..\\Class5th (Stack)\\source.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-24T05:56:09.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class4th (Vector)\\source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Vector)\\source.cpp",
@@ -47,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class1th (Single Linked List)\\source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Single Linked List)\\source.cpp",
@@ -55,25 +101,11 @@
               "RelativeToolTip": "..\\Class1th (Single Linked List)\\source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-12T10:16:56.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T10:16:56.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Program\\Program.cpp",
-              "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Program\\Program.cpp",
-              "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAwGEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-11T09:03:10.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class3th (Circle Linked List)\\source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Circle Linked List)\\source.cpp",
@@ -85,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Users\\ujw12\\OneDrive\\Desktop\\cppProgramlist\\Class2th (Double Linked List)\\source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Double Linked List)\\source.cpp",

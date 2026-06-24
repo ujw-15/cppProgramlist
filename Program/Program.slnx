@@ -7,5 +7,7 @@
   <Project Path="../Class2th (Double Linked List)/Class2th (Double Linked List).vcxproj" Id="67d83cff-70a8-47ca-b4e8-79428df239a0" />
   <Project Path="../Class3th (Circle Linked List)/Class3th (Circle Linked List).vcxproj" Id="b220f4e3-b19b-4ea0-8035-6faab0ff652d" />
   <Project Path="../Class4th (Vector)/Class4th (Vector).vcxproj" Id="f3124a2e-434d-4116-bf57-1f2d9f27d9a5" />
+  <Project Path="../Class5th (Stack)/Class5th (Stack).vcxproj" Id="a8a76c92-8a25-431f-bc72-235b64b0a675" />
+  <Project Path="../Class6th (Linear Queue)/Class6th (Linear Queue).vcxproj" Id="514577a3-3af8-4e71-a786-83e57bd34efa" />
   <Project Path="Program.vcxproj" Id="f748d256-4e19-41d5-b963-4b59305a4b95" />
 </Solution>
