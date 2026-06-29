@@ -1,2 +1,281 @@
 ﻿  Program.cpp
-  Program.vcxproj -> C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\x64\Debug\Program.exe
+C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2): error C2679: 이항 '<<': 오른쪽 피연산자로 'void' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(476,39):
+      'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'일 수 있습니다.
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': 인수 2을(를) 'void'에서 'std::basic_streambuf<char,std::char_traits<char>> *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(444,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': 인수 2을(를) 'void'에서 'const void *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(426,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': 인수 2을(를) 'void'에서 'long double'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(408,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': 인수 2을(를) 'void'에서 'double'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(390,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': 인수 2을(를) 'void'에서 'float'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(372,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': 인수 2을(를) 'void'에서 'unsigned __int64'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(354,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': 인수 2을(를) 'void'에서 '__int64'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(336,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': 인수 2을(를) 'void'에서 'unsigned long'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(318,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': 인수 2을(를) 'void'에서 'long'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(299,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': 인수 2을(를) 'void'에서 'unsigned int'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(273,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': 인수 2을(를) 'void'에서 'int'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(254,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': 인수 2을(를) 'void'에서 'unsigned short'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(220,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': 인수 2을(를) 'void'에서 'short'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(202,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': 인수 2을(를) 'void'에서 'bool'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(196,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': 인수 2을(를) 'void'에서 'std::ios_base &(__cdecl *)(std::ios_base &)'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(190,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': 인수 2을(를) 'void'에서 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(185,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': 인수 2을(를) 'void'에서 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(471,20):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::nullptr_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'std::nullptr_t'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              nullptr는 포인터 또는 핸들 형식으로만 변환할 수 있습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(1027,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const std::error_code &'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(1001,9):
+      또는       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(1000,103):
+              '<template-parameter>': 참조에 대한 포인터를 만들 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(989,34):
+      또는       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char32_t *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char32_t *)': 'std::ostream'에서 'std::basic_ostream<wchar_t,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(987,34):
+      또는       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char16_t *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char16_t *)': 'std::ostream'에서 'std::basic_ostream<wchar_t,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(984,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char32_t *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const char32_t *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(982,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char16_t *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const char16_t *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(979,34):
+      또는       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char32_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char32_t)': 'std::ostream'에서 'std::basic_ostream<wchar_t,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(977,34):
+      또는       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char16_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char16_t)': 'std::ostream'에서 'std::basic_ostream<wchar_t,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(974,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char32_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'char32_t'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(972,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char16_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'char16_t'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(968,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const wchar_t *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(965,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,wchar_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'wchar_t'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(959,34):
+      또는       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char8_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char8_t)': 'std::ostream'에서 'std::basic_ostream<wchar_t,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(957,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char8_t)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'char8_t'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(953,34):
+      또는       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char8_t *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char8_t *)': 'std::ostream'에서 'std::basic_ostream<wchar_t,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(951,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char8_t *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const char8_t *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(943,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'unsigned char'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(937,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const unsigned char *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(932,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'signed char'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(926,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const signed char *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(890,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': 템플릿 매개 변수 '_Elem'이(가) 모호합니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+              'void'일 수 있습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+              또는      'char'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': 'void'에서 '_Elem'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(847,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': 'void'에서 'const _Elem *'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(809,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'char'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(764,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const char *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(728,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'char'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp(684,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+          '초기화 중': 'void'에서 'const char *'(으)로 변환할 수 없습니다.
+              C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,26):
+              void 형식의 식을 다른 형식으로 변환할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\memory(3828,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': 'void'에서 'const std::unique_ptr<_Ty2,_Dx2> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\memory(2015,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': 'void'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(3577,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': 'void'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_string_view.hpp(2119,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string_view<_Elem,_Traits>)'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string_view<_Elem,_Traits>)': 'void'에서 'const std::basic_string_view<_Elem,_Traits>'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\cstddef(37,27):
+      또는       'std::byte std::operator <<(const std::byte,const _IntType) noexcept'
+          C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+          'std::byte std::operator <<(const std::byte,const _IntType) noexcept': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\cstddef(36,39):
+              'std::enable_if_t<false,int>': 별칭 템플릿을 특수화하지 못했습니다.
+      C:\Users\ujw12\OneDrive\Desktop\cppProgramlist\Program\Program.cpp(91,2):
+      인수 목록 '(std::ostream, void)'을(를) 일치시키는 동안
+  
