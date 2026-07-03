@@ -83,19 +83,78 @@ public:
 
 	void inorder(Node* root)
 	{
-		while (root != nullptr)
+		if (root != nullptr)
 		{
-			if (root == nullptr)
+			inorder(root->left);
+			cout << root->data << " ";
+			inorder(root->right);
+		}
+	}
+
+	void render()
+	{
+		inorder(root);
+	}
+
+	void erase(T data)
+	{
+		Node* currentNode = root;
+		Node* parentNode = nullptr;
+
+		while (currentNode != nullptr && currentNode->data != data)
+		{
+			parentNode = currentNode;
+
+			if (currentNode->data > data)
 			{
-				root = root->data;
-				return root;
-				root = root->right;
+				currentNode = currentNode->left;
 			}
 			else
 			{
-				root = root->left;
+				currentNode = currentNode->right;
+			}
+		}
+		if (currentNode == nullptr)
+		{
+			cout << "the data does not exist" << endl;
+
+			return;
+		}
+		else if (currentNode->left == nullptr && currentNode->right == nullptr)
+		{
+			if (parentNode != nullptr)
+			{
+				if (parentNode->left == currentNode)
+				{
+					parentNode->left = nullptr;
+				}
+				else
+				{
+					parentNode->right = nullptr;
+				}
+			}
+			else
+			{
+				root = nullptr;
 			}
 
+			delete currentNode;
+		}
+		else
+		{
+			Node* childNode = nullptr;
+			currentNode = currentNode->left;
+			if (currentNode != nullptr)
+			{
+				childNode = currentNode->left;
+
+				if (currentNode == parentNode->left)
+				{
+					parentNode->left = childNode;
+
+					delete currentNode;
+				}
+			}
 		}
 	}
 };
@@ -108,7 +167,8 @@ int main()
 	tree.insert(20);
 	tree.insert(30);
 	tree.insert(40);
-
+	tree.erase(40);
+	tree.render();
 	return 0;
 }
 
