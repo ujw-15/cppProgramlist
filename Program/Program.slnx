@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../Class10th (Binary Search Tree)/Class10th (Binary Search Tree).vcxproj" Id="cf2e69df-840a-4fc4-9f97-f0eb1c49277f" />
   <Project Path="../Class1th (Single Linked List)/Class1th (Single Linked List).vcxproj" Id="f2ad7efe-a11f-4cb7-acc5-14d97e7b39c3" />
   <Project Path="../Class2th (Double Linked List)/Class2th (Double Linked List).vcxproj" Id="67d83cff-70a8-47ca-b4e8-79428df239a0" />
   <Project Path="../Class3th (Circle Linked List)/Class3th (Circle Linked List).vcxproj" Id="b220f4e3-b19b-4ea0-8035-6faab0ff652d" />
